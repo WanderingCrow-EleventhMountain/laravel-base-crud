@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 25vh;
+  background: orange;
+}
+
+main {
+  height: 60vh;
+  background: black;
+  color: white;
+}
+
+footer {
+  height: 15vh;
+  background: green;
+}
+
