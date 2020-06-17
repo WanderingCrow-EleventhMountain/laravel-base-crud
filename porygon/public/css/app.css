@@ -5,18 +5,32 @@
 }
 
 header {
-  height: 25vh;
+  height: 13vh;
   background: orange;
 }
 
-main {
-  height: 60vh;
+.porycontainer {
+  height: 80vh;
   background: black;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.porycontainer .pory {
+  border: 2px solid green;
+  border-style: groove;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
-  height: 15vh;
+  height: 7vh;
   background: green;
 }
 

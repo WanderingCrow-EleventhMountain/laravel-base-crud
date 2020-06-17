@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePoryTable extends Migration
+class CreatePorysTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,21 +13,15 @@ class CreatePoryTable extends Migration
      */
     public function up()
     {
-        Schema::create('pory', function (Blueprint $table) {
+        Schema::create('porys', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
             $table->string('tipo');
             $table->integer('altezza');
             $table->integer('peso');
-            $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
         Schema::dropIfExists('pory');

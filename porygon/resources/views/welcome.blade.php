@@ -12,7 +12,10 @@
     </head>
     <body>
       @include('header')
-      @yield('main')
-      @include('footer ')
+      <div class="porycontainer">
+        @yield('pory')
+      </div>
+      @include('footer')
+      <script src="/js/app.js" charset="utf-8"></script>
     </body>
 </html>

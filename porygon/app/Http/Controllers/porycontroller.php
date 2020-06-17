@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\pory;
+use App\Pory;
 use Illuminate\Http\Request;
 
 class porycontroller extends Controller
 {
   public function index(){
-    $pory = pory::all();
-    return view('layout', compact('pory'));
+    $poryDB = Pory::all();
+    return view('layout', compact('poryDB'));
   }
 }

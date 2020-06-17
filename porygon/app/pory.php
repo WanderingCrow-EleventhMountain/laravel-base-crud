@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class pory extends Model
+class Pory extends Model
 {
-    protected $table = 'pory';
+  protected $table = 'porys';
 }
